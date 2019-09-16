@@ -4,7 +4,6 @@
 
 .wrapper {
     width: 960px;
-    padding: 20px;
     margin: 0 auto;
 }
 
@@ -21,33 +20,35 @@ header {
     height: 100px;
 }
 
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: 700;
     color: #ffffff;
     background-color: #4aaaa5;
-    height: 60px;
+    height: 100px;
     text-align: center;  
-    position: relative;  
-    padding: 20px;
+    padding: 32.5px 10px;
     float: left;
 }
 
 
 
-nav {
-    width: 100%;
+.name-nav {
+    width: 960px;
     margin: 0 auto 0 auto;
+    background-color: #ffffff
 
 }
 
+ul {
+    padding: 32.5px 10px;
+}
 .nav-list {
     float: right;
     margin-top: 10px;
 }
-
-
 
 li {
     display: inline;
@@ -88,19 +89,17 @@ a:active {
 
 #image1 {
     float: left;
-    margin: 10px 30px 10px 10px;
+    margin: 60px 15px;
 }
 
 .name {
-    float: left;
-    margin: 10px auto auto auto;
+
 }
 
 .content {
     margin: 40px auto 20px auto;
     display: inline-block;
     background-color: #ffffff;
-    height: 960;
 
 }
 .about-me {
@@ -108,16 +107,20 @@ a:active {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: 700;
-    height: 100px;
-    width: 160px;
-    text-align: center;     
+    height: 25px;
+    width: 140px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 #text {
-    padding: 20px;
+    padding: 60px;
+    height: 750px;
 }
 .background {
     background-image: url("../images/concrete-texture.png");
+    padding-bottom: 60px
 }
 
 footer {
